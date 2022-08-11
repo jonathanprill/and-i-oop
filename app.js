@@ -1,3 +1,3 @@
-import potion from './lib/Potion'
+const Game = require('./lib/Game');
 
-console.log(potion)
+new Game().initializeGame();
